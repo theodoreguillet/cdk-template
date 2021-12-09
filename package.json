@@ -1,0 +1,58 @@
+{
+    "name": "cdk",
+    "version": "0.1.0",
+    "bin": {
+        "cdk": "build/cdk.js"
+    },
+    "scripts": {
+        "build": "tsc",
+        "cdk": "cdk",
+        "test": "jest",
+        "type-check": "tsc --project tsconfig.json --pretty --noEmit",
+        "lint": "eslint . --ext js,jsx,ts,tsx --fix"
+    },
+    "devDependencies": {
+        "@aws-cdk/assertions": "1.132.0",
+        "@types/jest": "26.0.10",
+        "@types/node": "15.0.1",
+        "@typescript-eslint/eslint-plugin": "4.22.0",
+        "@typescript-eslint/parser": "4.22.0",
+        "aws-cdk": "1.132.0",
+        "esbuild": "0.11.12",
+        "eslint": "7.32.0",
+        "eslint-config-airbnb-base": "14.2.1",
+        "eslint-config-prettier": "8.2.0",
+        "eslint-import-resolver-typescript": "2.4.0",
+        "eslint-plugin-import": "2.22.1",
+        "eslint-plugin-jest": "24.3.5",
+        "eslint-plugin-prettier": "3.4.0",
+        "jest": "26.6.3",
+        "prettier": "2.2.1",
+        "ts-jest": "26.5.5",
+        "ts-node": "9.1.1",
+        "typescript": "4.2.4"
+    },
+    "dependencies": {
+        "@aws-cdk/aws-apigatewayv2": "1.132.0",
+        "@aws-cdk/aws-apigatewayv2-integrations": "1.132.0",
+        "@aws-cdk/aws-codebuild": "1.132.0",
+        "@aws-cdk/aws-codepipeline": "1.132.0",
+        "@aws-cdk/aws-codepipeline-actions": "1.132.0",
+        "@aws-cdk/aws-dynamodb": "1.132.0",
+        "@aws-cdk/aws-ec2": "1.132.0",
+        "@aws-cdk/aws-ecs": "1.132.0",
+        "@aws-cdk/aws-ecs-patterns": "1.132.0",
+        "@aws-cdk/aws-elasticloadbalancingv2": "1.132.0",
+        "@aws-cdk/aws-elasticloadbalancingv2-targets": "1.132.0",
+        "@aws-cdk/aws-iam": "1.132.0",
+        "@aws-cdk/aws-lambda-event-sources": "1.132.0",
+        "@aws-cdk/aws-lambda-python": "1.132.0",
+        "@aws-cdk/aws-s3": "1.132.0",
+        "@aws-cdk/aws-sqs": "1.132.0",
+        "@aws-cdk/aws-sns": "1.132.0",
+        "@aws-cdk/aws-sns-subscriptions": "1.132.0",
+        "@aws-cdk/aws-ssm": "1.132.0",
+        "@aws-cdk/core": "1.132.0",
+        "source-map-support": "0.5.16"
+    }
+}
